@@ -1,0 +1,7 @@
+# Lab 2: Add the spec before applying this file.
+apiVersion: v1
+kind: Service
+metadata:
+  name: python-demo
+# TODO: Use ClusterIP and select the Pods by their app label.
+# TODO: Expose Service port 80 and send traffic to app port 8000.

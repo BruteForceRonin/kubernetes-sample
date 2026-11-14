@@ -1,0 +1,9 @@
+# Lab 2: Add the spec before applying this file.
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: python-demo
+# TODO: Ask for two replicas.
+# TODO: Give the Pod template an app label and match it in the selector.
+# TODO: Define one container named python-demo using python-k8s-demo:v1.
+# TODO: Set imagePullPolicy to Never for the local image and declare port 8000.
